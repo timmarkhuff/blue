@@ -27,4 +27,7 @@ services:
       - /dev:/dev
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /mnt/wslg:/mnt/wslg
+      - /home/tim/blue:/home/blue/ws_blue/src/blue
+      - /home/tim/aquabot:/home/blue/ws_blue/src/aquabot
+
     command: tail -f /dev/null
