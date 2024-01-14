@@ -77,28 +77,46 @@ joy_teleop:
         data: False
       buttons: [10]
 
-    manual_mode:
+    # manual_mode:
+    #   type: service
+    #   interface_type: mavros_msgs/srv/SetMode
+    #   service_name: /mavros/set_mode
+    #   service_request:
+    #     custom_mode: MANUAL
+    #   buttons: [0]
+
+    # depth_hold_mode:
+    #   type: service
+    #   interface_type: mavros_msgs/srv/SetMode
+    #   service_name: /mavros/set_mode
+    #   service_request:
+    #     custom_mode: ALT_HOLD
+    #   buttons: [1]
+
+    # guided_mode:
+    #   type: service
+    #   interface_type: mavros_msgs/srv/SetMode
+    #   service_name: /mavros/set_mode
+    #   service_request:
+    #     custom_mode: GUIDED
+    #   buttons: [2]
+
+    add_inspection_waypoint:
       type: service
-      interface_type: mavros_msgs/srv/SetMode
-      service_name: /mavros/set_mode
-      service_request:
-        custom_mode: MANUAL
+      interface_type: std_srvs/srv/Empty
+      service_name: /aquabot/add_inspection_waypoint
       buttons: [0]
 
-    depth_hold_mode:
+    remove_waypoint:
       type: service
-      interface_type: mavros_msgs/srv/SetMode
-      service_name: /mavros/set_mode
-      service_request:
-        custom_mode: ALT_HOLD
+      interface_type: std_srvs/srv/Empty
+      service_name: /aquabot/remove_waypoint
       buttons: [1]
 
-    guided_mode:
+    add_move_waypoint:
       type: service
-      interface_type: mavros_msgs/srv/SetMode
-      service_name: /mavros/set_mode
-      service_request:
-        custom_mode: GUIDED
+      interface_type: std_srvs/srv/Empty
+      service_name: /aquabot/add_move_waypoint
       buttons: [2]
 
     auto_mode:
