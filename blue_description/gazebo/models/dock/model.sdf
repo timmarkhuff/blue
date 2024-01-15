@@ -91,28 +91,6 @@
     </link>
     
 
-    <link name="anode_1">
-      <pose>-0.75 0.15 -3.0 0 0 0 </pose>
-      <collision name="anode_1_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_1_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
     <link name="cylinder2">
       <pose>0.75 1.8333333333333333 -1.75 0 0 0 </pose>
       <collision name="cylinder2_collision">
@@ -268,7 +246,7 @@
     
 
     <link name="anode_5">
-      <pose>-0.85 3.4166666666666665 -1.5 0 0 0 </pose>
+      <pose>-0.75 3.5166666666666666 -1.5 0 0 0 </pose>
       <collision name="anode_5_collision">
         <geometry>
           <box><size>0.05 0.05 0.4</size></box>
@@ -311,28 +289,6 @@
     </link>
     
 
-    <link name="anode_6">
-      <pose>0.65 5.0 -0.5 0 0 0 </pose>
-      <collision name="anode_6_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_6_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
     <link name="cylinder7">
       <pose>-0.75 5.0 -1.75 0 0 0 </pose>
       <collision name="cylinder7_collision">
@@ -348,28 +304,6 @@
         <material>
             <ambient>0.25 0.25 0.25 1 </ambient>
             <diffuse>0.25 0.25 0.25 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
-    <link name="anode_7">
-      <pose>-0.65 5.0 -1.5 0 0 0 </pose>
-      <collision name="anode_7_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_7_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
             <specular>1 1 1 1</specular>
         </material>
 
@@ -443,28 +377,6 @@
     </link>
     
 
-    <link name="anode_9">
-      <pose>-0.85 6.583333333333333 -0.5 0 0 0 </pose>
-      <collision name="anode_9_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_9_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
     <link name="cylinder10">
       <pose>0.75 8.166666666666666 -1.75 0 0 0 </pose>
       <collision name="cylinder10_collision">
@@ -487,28 +399,6 @@
     </link>
     
 
-    <link name="anode_10">
-      <pose>0.75 8.066666666666666 -0.5 0 0 0 </pose>
-      <collision name="anode_10_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_10_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
     <link name="cylinder11">
       <pose>-0.75 8.166666666666666 -1.75 0 0 0 </pose>
       <collision name="cylinder11_collision">
@@ -524,28 +414,6 @@
         <material>
             <ambient>0.25 0.25 0.25 1 </ambient>
             <diffuse>0.25 0.25 0.25 1 </diffuse>
-            <specular>1 1 1 1</specular>
-        </material>
-
-      </visual>
-    </link>
-    
-
-    <link name="anode_11">
-      <pose>-0.75 8.066666666666666 -0.5 0 0 0 </pose>
-      <collision name="anode_11_collision">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-      </collision>
-      <visual name="anode_11_visual">
-        <geometry>
-          <box><size>0.05 0.05 0.4</size></box>
-        </geometry>
-        
-        <material>
-            <ambient>0.85 0.85 0.85 1 </ambient>
-            <diffuse>0.85 0.85 0.85 1 </diffuse>
             <specular>1 1 1 1</specular>
         </material>
 
